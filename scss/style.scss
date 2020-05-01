@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(white, lightgreen);
+    margin-bottom: 8%; 
+
+    h1{
+        font-family:Times; 
+        font-size:30px; 
+        text-align:center; 
+        border-bottom:3px solid white
+    }
+    h2{
+        font-family: Times; 
+        font-size: 30px; 
+        text-align: left;
+        margin-left: 5%;
+    }
+}
+header{
+    height: 100%; 
+
+    nav{
+            animation-duration: 3s; 
+            animation-name: ejemplo; 
+            position: fixed; top: 0;
+            width:100%;
+        
+        ul{ 
+            list-style: none; 
+            display:flex; 
+            justify-content: space-between; 
+            background-color: white;
+            li { 
+                padding: 8px; 
+                margin: 15px; 
+                font-family: 'open sans', sans-serif; 
+                font-size: 22px; 
+            }
+        }
+             
+        }
+        a { 
+            text-decoration: none; 
+            color: inherit; 
+            color: black
+        }
+        .nav_logo{ 
+            width: 50%; 
+            height: 100% 
+        }
+        a:hover {
+            color: lightgreen
+        }
+        li:hover {
+             transition: underline from center
+            }
+        
+        @keyframes ejemplo {  
+            0% { opacity: 0 }
+            50% { opacity: 0,5 }
+            100% {opacity: 1
+        } 
+        #over:hover .overlay { 
+                opacity: 1;
+            }
+            
+        }  
+
+ }
+        /*sections*/
+        div{
+            .section_home{ 
+                    display:flex; 
+                    flex-direction: row;
+                    margin-top: 10%;
+            } 
+            .home_video { 
+                    width: 80%; 
+                    height: 80%;
+                    background-color: black;
+                    margin: 200px;
+                    }
+                  
+            .section_galeria_img{
+                    #img1 {
+                        grid-column: span 2; 
+                    }
+                    #img2 {
+                        grid-column: span 3; 
+                    }
+                    #img6 { 
+                        grid-column: span 2; 
+                        grid-row: span 2 
+                    }
+                 }
+            .section_quienes_form{
+                    text-align: center;
+                }
+
+            .section_departamentos_lista { 
+                    margin:5% 0 5% 15% ;
+                }
+            label{ 
+                    margin-bottom: 20px; 
+                    display: block;
+                }  
+        }
+    
+    
+    footer{ 
+        font-size: 20px; 
+        text-align: center; 
+        color: white; 
+        margin-top: 20px; 
+        background-color: black 
+    }
+
+
+
+

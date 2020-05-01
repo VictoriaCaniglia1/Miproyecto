@@ -1,0 +1,155 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightgreen));
+  background: linear-gradient(white, lightgreen);
+  margin-bottom: 8%;
+}
+
+body h1 {
+  font-family: Times;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+body h2 {
+  font-family: Times;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+header {
+  height: 100%;
+}
+
+header nav {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: ejemplo;
+          animation-name: ejemplo;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+header nav ul li {
+  padding: 8px;
+  margin: 15px;
+  font-family: 'open sans', sans-serif;
+  font-size: 22px;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  color: black;
+}
+
+header .nav_logo {
+  width: 50%;
+  height: 100%;
+}
+
+header a:hover {
+  color: lightgreen;
+}
+
+header li:hover {
+  -webkit-transition: underline from center;
+  transition: underline from center;
+}
+
+@-webkit-keyframes ejemplo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0,5;
+  }
+  100% {
+    opacity: 1;
+  }
+  #over:hover .overlay {
+    opacity: 1;
+  }
+}
+
+@keyframes ejemplo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0,5;
+  }
+  100% {
+    opacity: 1;
+  }
+  #over:hover .overlay {
+    opacity: 1;
+  }
+}
+
+/*sections*/
+div .section_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10%;
+}
+
+div .home_video {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  margin: 200px;
+}
+
+div .section_galeria_img #img1 {
+  grid-column: span 2;
+}
+
+div .section_galeria_img #img2 {
+  grid-column: span 3;
+}
+
+div .section_galeria_img #img6 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+div .section_quienes_form {
+  text-align: center;
+}
+
+div .section_departamentos_lista {
+  margin: 5% 0 5% 15%;
+}
+
+div label {
+  margin-bottom: 20px;
+  display: block;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
